@@ -1,5 +1,10 @@
 Title: Pretrial Motions and Pretrial Hearings
 Author: James Cronin
+Before: <link rel="stylesheet" type="text/css" href="https://suffolklitlab.org/howto/qna/style/style.css">
+<div id="icon" style="background-size: 110px 99px;background-image: url('https://suffolklitlab.org/howto/qna/images/maxheadroom.gif');"></div>
+<h2 style="text-align:center;">DACA "Flowchart"</h2>
+<p><b>This is a <a href="https://www.codingthelaw.org/#mission">class project</a>. You should not rely on it as a source of legal information!</b></p>
+<p>Click through to learn more about Mass. R. Crim. P. 15.</p>
 Description: Discussing Mass. R. Crim. P. 15
 
 Q(1): Have you completed the Pretrial Conference and Report?
