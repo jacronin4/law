@@ -1,0 +1,173 @@
+Title: Pretrial Motions and Pretrial Hearings
+Author: James Cronin
+Description: Discussing Mass. R. Crim. P. 15
+
+Q(1): Have you completed the Pretrial Conference and Report?
+A: Yes
+	Q(1.1):GOTO:2
+Q(2): What motions can a defense attorney bring?
+A: Motions that were not agreed by the prosecutor
+	Q(2.1):GOTO:correct
+A: Anything
+	Q(2.2):GOTO:incorrect
+
+Q(correct): Correct! Now what motions must be filed before trial?
+A: a defense or objection which is capable of determination without trial of the general issue
+	Q(3.1):GOTO:rule13
+A: a defense or objection which implicated the general issue of the trial
+	Q(3.2):GOTO:incorrect
+Q(rule13): Wait...what about motions to suppress or dismiss?
+A: I was thinking about that!
+	Q(4.1):GOTO:dismiss
+Q(dismiss):Those are not implicated in this rule. Those motions must be brought before the defendant is placed in jeopardy, in this rule we are concerned with discovery or non-discovery motions.
+A: Oh I get it now
+	Q(5.1):GOTO:discoveryornah
+Q(discoveryornah): So are we filing a discovery motion or a non-discovery motion?
+A: Discovery
+	Q(6.1):GOTO:discovery
+A: Non-discovery
+	Q(6.2):GOTO:nondiscovery
+Q(discovery): So you're filing a discovery motion, what materials can you file discovery motions for?
+A: Any discovery materials
+	Q(7.1):GOTO:incorrect
+A: Only discovery materials NOT included in mandatory discovery
+	Q(7.2):GOTO:discocorrect
+Q(discocorrect): Correct! So when do discovery motions have to be filed?
+A: Usually before conclusion of pretrial hearing
+	Q(8.1):GOTO:goodcause
+A: Before or after the pretrial hearing it does not matter
+	Q(8.2):GOTO:incorrect
+Q(goodcause): Correct! discovery motions must be filed before the conclusion of the pretrial hearing, but can be filed after if good cause is shown. There are two circumstances that are considered good cause.
+A: One
+	Q(9.1):GOTO:reasonable
+A: Two
+	Q(9.2):GOTO:reasonablecomm
+Q(reasonable): The first is when discovery could not have been requested or obtained before the pretrial hearing.
+A: DOPE!
+	Q(10.1):GOTO:nondiscovery
+Q(reasonablecomm): The second is when the Commonwealth could not reasonably provide all discovery due to the defense prior to the conclusion of the pretrial hearing.
+A:AWESOME!
+	Q(11.1):GOTO:nondiscovery
+Q(nondiscovery): So what about non-discovery motions? When do they need to be filed?
+A: At any point
+	Q(12.1):GOTO:incorrect
+A: no later than 21 days after the court's assignment of a trial date?
+	Q(12.2):GOTO:assignment
+Q(assignment): Correct! This is the rule unless the court allows later filing for good cause shown. But what if there is a compliance hearing after the pretrial hearing because discovery is not complete?
+A: That is a really good point, I was thinking that too!
+	Q(13.1):GOTO:compliancehearing
+Q(compliancehearing): The rule is that non-discovery pretrial motions must be filed 21 days after the pretrial hearing or the compliance hearing, whichever one comes later.
+A: That makes so much sense!
+	Q(14.1):GOTO:scheduling
+Q(scheduling): So how does a pretrial motions hearing get scheduled?
+A: You choose out of a hat
+	Q(15.1):GOTO:incorrect
+A: The judge or the clerk schedules it
+	Q(15.2):GOTO:hearingmotions
+Q(hearingmotions): Correct! The Clerk or the Judge must assign a date for a hearing on the motion within 7 days after the motion is filed or within 7 days of the motion being transferred to the trial session.
+A: That makes so much sense!
+	Q(16.1):GOTO:deadline
+Q(deadline): As a prosecutor what are the time contraints to file an opposing affidavit to the motion?
+A: We can do whatever we want
+	Q(17.1):GOTO:incorrect
+A: the deadline for opposing affidavits is at least one day before the hearing
+	Q(17.2):GOTO:deadline2
+Q(deadline2): Correct! the opposing party gets a fair opportunity to prepare and submit a memorandum in opposition 
+A: I understand!
+	Q(18.1):GOTO:jurytrial
+Q(jurytrial): Does the discovery motion have to be heard prior to the defendant electing or waiving a jury trial?
+A: YES
+	Q(19.1):GOTO:yougotit
+A:NO
+	Q(19.2):GOTO:incorrect
+Q(yougotit): Correct! The motion must be heard and decided prior to whent the defendant elects or waives a jury trial. But what about non-discovery motions when can they be heard?
+A: Same time frame as discovery motions
+	Q(20.1):GOTO:incorrect
+A: Different time frame as discovery motions
+	Q(20.2):GOTO:nondiscohear
+Q(nondiscohear): Correct! Non-discovery motions can be heard at the pretrial hearing, at a hearing scheduled to hear that motion, or at the trial session. 
+A: This is making really good sense to me
+	Q(21.1):GOTO:renewal
+Q(renewal): Can one renew an already denied motion?
+A: NO
+	Q(22.1):GOTO:incorrect
+A: YES
+	Q(22.2):GOTO:renewal2
+Q(renewal2): Correct! On a showing that substantial justice requires, the judge may permit a previously denied motion to be renewed. Now let's talk about what a compliance hearing is.
+A: LETS DO IT!
+	Q(23.1):GOTO:ch
+Q(ch): So when does a compliance hearing occur/when does it get scheduled?
+A: Lets find out....
+	Q(24.1):GOTO:compliancehearing2
+Q(compliancehearing2): At the pretrial hearing, the court determines whether the PTC report and all discover is complete as of that date. If the PTC report and discovery is not complete, then a compliance hearing is scheduled. Question! Is a compliance hearing always scheduled?
+A: YES
+	Q(25.1):GOTO:incorrect
+A: NO
+	Q(25.2):GOTO:compliance3
+Q(compliance3): Correct! the aggrieved party, can waive the right to a compliance hearing. So what goes on at a compliance hearing?
+A: The Prosecutor lies!
+	Q(26.1):GOTO:incorrect
+A: The court determines if the PTC report and discovery is complete
+	Q(26.2):GOTO:compliance4
+Q(compliance4): Correct! The court can also hear and decide discovery motions and order sanctions for noncompliance. So what happens if the PTC report and discovery are complete?
+A: I don't know let's find out
+	Q(27.1):GOTO:compliance5
+Q(compliance5): The court can act on a tender of plea or admission, obtain defendant's waiver of a jury trial, and schedule the trial date. Let's move on to when a motion is not timely filed.
+A: Let's Go!
+	Q(28.1):GOTO:dilatory
+Q(dilatory): Failure to timely file a motion can waive consideration of the issue. Are there any exceptions to this?
+A: No
+	Q(29.1):GOTO:incorrect
+A:Yes
+	Q(29.2):GOTO:dilatory2
+Q(dilatory2): Correct! There are a number of exceptions, for example when a motion becomes appropriate after the filing deadline and particular subjects can be raised after deadlines including during trial. Two examples are Miranda violations, or suppression of wiretap evidence.
+A: Cool
+	Q(30.1):GOTO:requirements
+Q(requirements): Let's talk about the requirements of filing a pretrial motion.
+A: I'm ready!
+	Q(31.1):GOTO:requirements2
+Q(requirements2): The motion must be in writing and signed by the attorney or client, and the affidavits relied upon must be signed by a person with knowledge of the facts. Now, what motions require memorandum?
+A: None
+	Q(32.1):GOTO:incorrect
+A: motion to suppress and motion to dismiss
+	Q(32.2):GOTO:requirements3
+Q(requirements3): Correct! The language in the rule reads, "no motion to suppress evidence, other than evidence seized during a warrantless search, and no motion to dismiss may be filed unless accompanied by a memorandum of law". 
+A: Cool!
+	Q(33.1):GOTO:process
+Q(process): During an evidentiary hearing, the party with the burden of proof introduces evidence and witnesses who are subject to cross-examination. In co-defendant cases, are counsel for other defendants allowed to cross-examine the witnesses?
+A: Yes
+	Q(34.1):GOTO:incorrect
+A: No
+	Q(34.2):GOTO:process2
+Q(process2): Correct! in this situation attorney's do not have the right to cross witnesses if the evidence will not be offered against their client. Now, what happens if the defendant testifies at the hearing?
+A: Free evidence for the Commonwealth
+	Q(35.1):GOTO:incorrect
+A: More rational things happen
+	Q(35.2):GOTO:process3
+Q(process3): Considering the 5th A, the defendant's testimony at an evidentiary hearing is not admissible at trial as part of the Commonwealth's presentation of evidence. HOWEVER, this could possibly be used for impeachment purposes.
+A: That makes so much sense!
+	Q(36.1):GOTO:ending
+Q(ending): Does this all make sense now?
+A: No
+	Q(37.1):GOTO:incorrect
+A: Yes
+	Q(37.2):GOTO:ending2
+Q(ending2): You're welcome!
+
+	
+
+
+
+
+
+
+
+
+
+
+
+Q(incorrect): Incorrect!
+
+
+
+
